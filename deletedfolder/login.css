@@ -1,0 +1,148 @@
+*
+{
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+  background-size: cover;
+  background: linear-gradient(to right, gray, #D3D1DC);
+  background-position: center;
+  font-family: "Itim", sans-serif;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.bg img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.menu-bar{
+position: absolute; top: 230px;
+}
+input[type=text] {
+  width: 22%;
+  padding: 6px 0px;
+  margin: 0px 500;
+  display: inline-block;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+
+}
+input[type=password]
+{
+  width: 22%;
+  padding: 6px 0;
+  margin: 8px 500;
+  display: inline-block;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+input[type=checkbox]
+{
+  position: absolute; left: 49.2%; top: 95;
+  margin: 0px 10;
+  color: white;
+
+}
+label[for=menu-bar]{
+margin:111 px 500;
+font-size: 90px;
+position: absolute; left: 580px; top: 100px;
+}
+label[for=title-bar]{
+  position: absolute; left: 530px; top: 200px;
+  font-size: 25px;
+}
+label[for=chk]{
+position: absolute; top: 92px;
+left: 698;
+}
+.login {
+  background-color: #000000;
+  color: white;
+  width: 22%;
+  padding: 6px;
+  margin: 30px 500;
+  left: 50;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.login:hover {
+  opacity: 0.8;
+}
+
+.adminlogin {
+  width: 21.5%;
+  position: absolute; top: 160px; left: 48px;
+  padding: 6px;
+  margin: 0px 468;
+  background-color: #000000;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.adminlogin:hover {
+  opacity: 0.8;
+}
+span[class=psw]{
+  margin: 0px 0;
+  position: absolute;
+  right: 43%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  margin: 0px 0;
+
+}
+
+span.psw {
+  position: absolute; right: 42%;
+  padding-top: 5px;
+  color: gray;
+}
+a:link {
+         color: gray;
+      }
+      a:visited {
+         color: gray;
+         text-decoration: none;
+      }
+
+  .fa-user {
+      position: absolute;
+      margin: 10px 760;
+      top: 6%;
+  }
+  .fa-key {
+      position: absolute; left: 14;
+      margin: 10px 760;
+      top: 20%;
+
+
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  }
+  }
+}

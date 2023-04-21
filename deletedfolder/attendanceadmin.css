@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ padding: 5px 0;
+ gap: 25px;
+}
+.container .pres-tab{
+  background-color: white;
+}
+.container .abs-tab{
+  background-color: white;
+}
+#attentable{
+
+}
+label[for=attentable]{
+text-align: center;
+font-size: 25px;
+}
+label[for=absent-table]{
+  font-size: 25px;
+}
+
+#attentable{
+border-collapse: collapse;
+overflow: hidden;
+border-radius: 25px;
+}
+#attentable thead tr{
+background-color: #B6C0C8;
+border-bottom:1px solid black;
+color: black;
+border-radius: 25px;
+text-align: center;
+}
+#attentable th,
+#attentable td{
+padding:15px 33px;
+position: sticky;
+text-align: center;
+}
+#attentable tbody tr{
+border-top:1px solid none;
+background-color: #B6C0C8;
+}
+#attentable{
+border-collapse: collapse;
+overflow: hidden;
+border-radius: 25px;
+}
+#attentable thead tr{
+background-color: #B6C0C8;
+border-bottom:1px solid black;
+color: black;
+border-radius: 25px;
+text-align: center;
+}
+#attentable th,
+#attentable td{
+padding:15px 33px;
+position: sticky;
+text-align: center;
+}
+#attentable tbody tr{
+border-top:1px solid none;
+background-color: #B6C0C8;
+}
+#absent-table{
+border-collapse: collapse;
+overflow: hidden;
+border-radius: 25px;
+}
+#absent-table thead tr{
+background-color: #B6C0C8;
+border-bottom:1px solid black;
+color: black;
+border-radius: 25px;
+text-align: center;
+}
+#absent-table th,
+#absent-table td{
+padding:15px 33px;
+position: sticky;
+text-align: center;
+}
+#absent-table tbody tr{
+border-top:1px solid none;
+background-color: #B6C0C8;
+}
